@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600&display=swap");
+
+:root {
+  --light-light-blue: #f7f8fd;
+  --light-blue: #f2f4ff;
+  --blue: #4661e6;
+  --dark-blue: #3a4374;
+  --dark-dark-blue: rgba(55, 63, 104);
+  --grey-blue: #647196;
+  --orange: #f49f85;
+  --party-blue: #62bcfa;
+  --white: #ffffff;
+  --pink-purple: #ad1fea;
+  --border-radius-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Jost", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
